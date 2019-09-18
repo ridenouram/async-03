@@ -9,13 +9,12 @@ const sample = {
   sick: true
 };
 
-// documents.save(sample);
+documents.save(sample);
 
-// documents.get('oDIEeqk3')
+// documents.get('oDIEeqk4')
 //   .then(stuff => {
 //     console.log('get', stuff);
 //   });
-  // .then(object => console.log(object));
 
-documents.getAll()
-  .then(all => console.log(all));
+// documents.getAll()
+//   .then(all => console.log(all));
