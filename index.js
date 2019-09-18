@@ -11,10 +11,11 @@ const sample = {
 
 // documents.save(sample);
 
-documents.get('oDIEeqk3')
-  .then(stuff => {
-    console.log('get', stuff);
-  });
+// documents.get('oDIEeqk3')
+//   .then(stuff => {
+//     console.log('get', stuff);
+//   });
   // .then(object => console.log(object));
 
-// documents.getAll()
+documents.getAll()
+  .then(all => console.log(all));
