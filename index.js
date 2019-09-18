@@ -11,7 +11,10 @@ const sample = {
 
 // documents.save(sample);
 
-console.log('in index', async() => await documents.get('oDIEeqk3')); 
+documents.get('oDIEeqk3')
+  .then(stuff => {
+    console.log('get', stuff);
+  });
   // .then(object => console.log(object));
 
 // documents.getAll()
